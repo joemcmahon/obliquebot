@@ -52,7 +52,7 @@ slapp.message('help', ['mention', 'direct_message'], (msg) => {
   msg.say(HELP_TEXT)
 })
 
-slapp.message(/oblique|strateg(y|ies)/i, ['mention', 'direct_message'], (msg) => {
+slapp.message(/oblique|strateg(y|ies)/i, ['mention', 'direct_message', 'direct_mention'], (msg) => {
     msg.say(_.sample(strategies))
 })
 
