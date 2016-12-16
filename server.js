@@ -40,7 +40,7 @@ require('beepboop-slapp-presence-polyfill')(slapp, { debug: true })
 var HELP_TEXT = `
 I will respond to the following messages:
 \`help\` - to see this message.
-\`track\` - to see what the current track is.
+anything else - to see an Oblique Strategy.
 `
 
 // *********************************************
