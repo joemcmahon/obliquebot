@@ -1,14 +1,16 @@
 # Obliquebot
 
-This repository inmplements a bot that listens to the channel and (as appropriate) comments with one of Brian Eno and Peter Schmidt's Oblique
+This repository implements a bot that listens to the channel and when addressed directly, responds with one of Brian Eno and Peter Schmidt's Oblique
 Strategies.
 
-This Slackbot is meant to be hosted at [Beep Boop][bb], uses the [Slapp][slapp]
+This Slackbot is hosted at [Beep Boop][bb], uses the [Slapp][slapp]
 library, and takes advantage of the [Slack Events API][slack-events-api].
 
-## Setup Instructions
+<a href="https://slack.com/oauth/authorize?scope=bot&client_id=116387385826.116120891168"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
-Once you've created a new [Beep Boop](bb) project with this repo, go to your project's **Settings** tab and enable a Slack App.
+## Setup Instructions if you want to create your own:
+
+Create a new [Beep Boop](bb) project with this repo, go to your project's **Settings** tab and enable a Slack App.
 
 ![Enable Slack App](https://cloud.githubusercontent.com/assets/367275/19362140/b4039c86-9142-11e6-9b31-941609c1b090.gif)
 
