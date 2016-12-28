@@ -8,9 +8,10 @@ library, and takes advantage of the [Slack Events API][slack-events-api].
 
 <a href='https://beepboophq.com/api/slack/auth/add-to-slack/365f2d09fa3347248592ad508a16e1fb'><img alt='Add to Slack' height='40' width='139' src='https://platform.slack-edge.com/img/add_to_slack.png' srcset='https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x' /></a>
 
-## Setup Instructions if you want to create your own:
+## Setup Instructions if you want to create your own bot based on obliquebot:
 
-Create a new [Beep Boop](bb) project with this repo, go to your project's **Settings** tab and enable a Slack App.
+First, clone this repo, then 
+create a new [Beep Boop](bb) project with your new repo. Once that's done, go to your Beepboop project's **Settings** tab and enable a Slack App.
 
 ![Enable Slack App](https://cloud.githubusercontent.com/assets/367275/19362140/b4039c86-9142-11e6-9b31-941609c1b090.gif)
 
@@ -28,20 +29,17 @@ Once you've finished setting up your Slack App and saved the `Client ID`, `Clien
 
 ![Start](https://cloud.githubusercontent.com/assets/367275/19364564/edb43efa-914b-11e6-9265-d33122bf5f9a.png)
 
-Once your project has started, go to the **Teams** tab and add your new Slack App to one of your Slack teams.
+Once your project has started, go to the **Teams** tab and add your new Slack App to one of your Slack teams. This will automatically add a new `@obliquebot` user to your team.
 
 ![Add Team](https://cloud.githubusercontent.com/assets/367275/19364343/012e4922-914b-11e6-8f0a-bb020b016fd2.png)
 
-Send `@oblique` a Direct Message of `help` to see what it can do.
+Send `@obliquebot` a Direct Message of `help` to see what it can do.
 
-![Help](https://cloud.githubusercontent.com/assets/367275/19364707/7a4f8964-914c-11e6-99cd-d4cd65c9061a.png)
+![Help](https://raw.githubusercontent.com/joemcmahon/obliquebot/master/_layouts/help.png)
 
-### Why is my Bot Offline?
+### Showing your bot as on-line
 
-![Bot Offline](https://cloud.githubusercontent.com/assets/367275/19364857/3944ba24-914d-11e6-9939-a37ed07b954e.png)
-
-Your bot will not show as "online", which is a current limitation of the [Slack Events API][slack-events-api] (no way to set presence). If you really want your bot to show online, [check out this work-around][presence-polyfill].
-I recommend doing this; it also helps you see if it's properly online or notr.
+The obliquebot already integrates the presence-polyfill work-around to show the bot as on-line when it's up. Read the [details][presence-polyfill] for the setup to get it to work.
 
 [bb]: https://beepboophq.com
 [slapp]: https://github.com/BeepBoopHQ/slapp
