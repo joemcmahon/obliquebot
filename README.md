@@ -1,7 +1,9 @@
-# Obliquebot
-
 This repository implements a bot that listens to the channel and when addressed directly, responds with one of Brian Eno and Peter Schmidt's Oblique
 Strategies.
+
+Send `@obliquebot` a Direct Message of `help` to see what it can do.
+
+![Help](https://raw.githubusercontent.com/joemcmahon/obliquebot/master/_layouts/help.png)
 
 This Slackbot is hosted at [Beep Boop][bb], uses the [Slapp][slapp]
 library, and takes advantage of the [Slack Events API][slack-events-api].
@@ -32,10 +34,6 @@ Once you've finished setting up your Slack App and saved the `Client ID`, `Clien
 Once your project has started, go to the **Teams** tab and add your new Slack App to one of your Slack teams. This will automatically add a new `@obliquebot` user to your team.
 
 ![Add Team](https://cloud.githubusercontent.com/assets/367275/19364343/012e4922-914b-11e6-8f0a-bb020b016fd2.png)
-
-Send `@obliquebot` a Direct Message of `help` to see what it can do.
-
-![Help](https://raw.githubusercontent.com/joemcmahon/obliquebot/master/_layouts/help.png)
 
 ### Showing your bot as on-line
 
