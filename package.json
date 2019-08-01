@@ -17,15 +17,14 @@
   },
   "homepage": "https://github.com/BeepBoopHQ/starter-slapp-app#readme",
   "dependencies": {
-    "beepboop-slapp-presence-polyfill": "^1.1.1",
+    "eslint": "4.18.2",
     "express": "^4.14.0",
     "fs": "^0.0.1-security",
-    "lodash": "^4.17.2",
-    "node-internet-radio": "^0.1.4",
+    "lodash": "4.17.19",
     "nodemon": "^1.11.0",
     "slapp": "^1.2.0",
-    "slapp-context-beepboop": "^1.1.0",
-    "slapp-convo-beepboop": "^1.0.0",
-    "standard": "^8.4.0"
+    "standard": "^8.4.0",
+    "tar": "2.2.2",
+    "ws": "3.3.1"
   }
 }
