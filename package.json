@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "An example Slapp Slack App using Firebase as the persistence layer",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "web": "node server.js"
   },
   "repository": {
     "type": "git",
