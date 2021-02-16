@@ -1,6 +1,6 @@
-This repository implements a bot that listens to the channel and when appropriate, responds with one of Brian Eno and Peter Schmidt's Oblique Strategies.
+This repository implements a bot that listens to a Slack channel and when appropriate, responds with one of Brian Eno and Peter Schmidt's Oblique Strategies.
 
-The bot will listen, in any channel where it has been invited, for "strategy", strategies", and "oblique". If
+The bot will listen, in any channel where it has been invited, for "strategy", "strategies", and "oblique". If
 it sees amy of those words, it will respond with a random strategy from the `strategies.yml` file.
 
 It can also be directly addressed with any text at all to receive a strategy in return.
