@@ -125,3 +125,4 @@ While testing, I strongly suggest creating a test Slack for just yourself; you c
 4. You should, if the app is running correctly, see a new page with the text `obliquebot is requesting permission to access the [some name] Slack workspace` and an `Allow` button. Click `Allow` to proceed.ot-
 5. The wait indicator should circle for a second, then you should see `This Slack App has been successfully added to the [some name] team`.
 6. Go back to Slack, and you should now see `obliquebot` in the `Apps` section of the left sidebar. Click on `obliquebot` and you'll be in a private conversation with the bot. Type anything, and you should get a strategy.
+7. Add `obliquebot` to any channels where you'd like it to be listening; when it hears its keywords, or it's included in a message, it will respond with a strategy.
