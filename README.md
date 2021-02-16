@@ -7,8 +7,8 @@ It can also be directly addressed with any text at all to receive a strategy in 
 
 ![Help](https://raw.githubusercontent.com/joemcmahon/obliquebot/master/_layouts/help.png)
 
-This bot has been converted to run at Heroku in a hobby dyno. It uses the [Slapp][https://www.npmjs.com/package/slapp]
-library, and takes advantage of the [Slack Events API][slack-events-api].
+This bot has been converted to run at Heroku in a hobby dyno. It uses the [Slapp](https://www.npmjs.com/package/slapp)
+library, and takes advantage of the [Slack Events API](slack-events-api).
 
 # I just want obliquebot in my Slack
 
