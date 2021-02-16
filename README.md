@@ -3,7 +3,7 @@ This repository implements a bot that listens to a Slack channel and when approp
 The bot will listen, in any channel where it has been invited, for "strategy", "strategies", and "oblique". If
 it sees amy of those words, it will respond with a random strategy from the `strategies.yml` file.
 
-It can also be directly addressed with any text at all to receive a strategy in return.
+It can also be directly addressed with any text other than 'help' to receive a strategy in return.
 
 ![Help](https://raw.githubusercontent.com/joemcmahon/obliquebot/master/_layouts/help.png)
 
