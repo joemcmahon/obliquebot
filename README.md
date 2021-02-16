@@ -98,22 +98,22 @@ This will generate and download a JSON file containig the credentials needed for
 
 Heroku will build the service and ready it for execution. Once the build completes, scroll back to the top and click `More` and select `View logs` in the popup. If everything is set up properly here on Heroku, you should see log entries like this:
 
-    2021-02-16T07:37:50.993893+00:00 heroku[web.1]: State changed from down to starting
-    2021-02-16T07:37:55.508809+00:00 heroku[web.1]: Starting process with command `yarn run start`
-    2021-02-16T07:37:58.295511+00:00 app[web.1]: [heroku-exec] Starting
-    2021-02-16T07:37:58.898189+00:00 app[web.1]: yarn run v1.22.10
-    2021-02-16T07:37:59.041947+00:00 app[web.1]: $ node server.js
-    2021-02-16T07:37:59.160609+00:00 app[web.1]: undefined
-    2021-02-16T07:37:59.399440+00:00 app[web.1]: loading team info
-    2021-02-16T07:37:59.850241+00:00 heroku[web.1]: State changed from starting to up
-    2021-02-16T07:37:59.679026+00:00 app[web.1]: Launching bot
-    2021-02-16T07:37:59.680752+00:00 app[web.1]: attaching to database at  https://obliquebot-42e3b.firebaseio.com/
-    2021-02-16T07:37:59.680830+00:00 app[web.1]: account info loaded
-    2021-02-16T07:37:59.682533+00:00 app[web.1]: app initialized
-    2021-02-16T07:37:59.689417+00:00 app[web.1]: have database
-    2021-02-16T07:37:59.691912+00:00 app[web.1]: initializing Slapp
-    2021-02-16T07:37:59.702466+00:00 app[web.1]: (Organic) machinery
-    2021-02-16T07:37:59.711677+00:00 app[web.1]: http server started on port 9120
+    ... heroku[web.1]: State changed from down to starting
+    ... heroku[web.1]: Starting process with command `yarn run start`
+    ... app[web.1]: [heroku-exec] Starting
+    ... app[web.1]: yarn run v1.22.10
+    ... app[web.1]: $ node server.js
+    ... app[web.1]: undefined
+    ... app[web.1]: loading team info
+    ... heroku[web.1]: State changed from starting to up
+    ... app[web.1]: Launching bot
+    ... app[web.1]: attaching to database at  https://obliquebot-xxxxx.firebaseio.com/
+    ... app[web.1]: account info loaded
+    ... app[web.1]: app initialized
+    ... app[web.1]: have database
+    ... app[web.1]: initializing Slapp
+    ... app[web.1]: (Organic) machinery
+    ... app[web.1]: http server started on port 9120
 
 # Connect your bot to Slack.
 
@@ -122,6 +122,6 @@ While testing, I strongly suggest creating a test Slack for just yourself; you c
 1. Log in to the Slack you want to add the bot to, then click on the Slack name at the top of the Slack left sidebar.
 2. Mouse down to `Settings and administration`, and then `Manage apps` in the submenu. Your browser should open at `app.slack.com`.
 3. Now type `https://yourherokuappsname.herokuapp.com` into the URL bar and hit enter. You should see the obliquebot logo and an `Add to Slack` button. Click the `Add to Slack` button.
-4. You should, if the app is running correctly, see a new page with the text `obliquebot is requesting permission to access the [some name] Slack workspace` and an `Allow` button. Click `Allow` to proceed.
+4. You should, if the app is running correctly, see a new page with the text `obliquebot is requesting permission to access the [some name] Slack workspace` and an `Allow` button. Click `Allow` to proceed.ot-
 5. The wait indicator should circle for a second, then you should see `This Slack App has been successfully added to the [some name] team`.
 6. Go back to Slack, and you should now see `obliquebot` in the `Apps` section of the left sidebar. Click on `obliquebot` and you'll be in a private conversation with the bot. Type anything, and you should get a strategy.
