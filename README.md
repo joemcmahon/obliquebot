@@ -11,6 +11,7 @@ This bot has been converted to run at Heroku in a hobby dyno. It uses the [Slapp
 library, and takes advantage of the [Slack Events API](slack-events-api).
 
 # I just want obliquebot in my Slack
+Click this button and you'll get `obliquebot` in your Slack, no extra work required. See the *Connect your bot to Slack* section below, starting at step 3. You won't need to enter the bot page's URL.
 
 <a href='https://obliquebot.herokuapp.com'><img alt='Add to Slack' height='40' width='139' src='https://platform.slack-edge.com/img/add_to_slack.png' srcset='https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x' /></a>
 
