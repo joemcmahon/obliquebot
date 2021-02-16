@@ -7,12 +7,14 @@ It can also be directly addressed with any text at all to receive a strategy in 
 
 ![Help](https://raw.githubusercontent.com/joemcmahon/obliquebot/master/_layouts/help.png)
 
-This bot ihas been converted to run at Heroku in a hobby dyno. It uses the [Slapp][https://www.npmjs.com/package/slapp]
+This bot has been converted to run at Heroku in a hobby dyno. It uses the [Slapp][https://www.npmjs.com/package/slapp]
 library, and takes advantage of the [Slack Events API][slack-events-api].
+
+# I just want obliquebot in my Slack
 
 <a href='https://obliquebot.herokuapp.com'><img alt='Add to Slack' height='40' width='139' src='https://platform.slack-edge.com/img/add_to_slack.png' srcset='https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x' /></a>
 
-# Setup Instructions
+# Build your own based on this repository
 If you want to create your own bot based on obliquebot:
 
 # Let Slack know about the bot.
@@ -41,7 +43,7 @@ use [Firebase](https://firebase.google.com/) to store this data.
 1. Log in to your Google account. You'll need to do this to be able to create a new Firebase database.
 2. Go to [Firebase](https://firebase.google.com) and click "Go to Console".
 3. Click the big "Add Project" button to set up a new database, and walk through the wizard to finish setting it up.
- - Enter a project name (if you're just cloning Obliquebot to test things out, that's a reasonable name).
+ - Enter a project name (if you're just cloning obliquebot to test things out, that's a reasonable name).
  - Enable analytics if you like; you'll need a Google Analytics account to connect to if so.
  - Otherwise, say no, and click "Create project".
 4. When the screen says "your new project is ready", click through to see the new database.
