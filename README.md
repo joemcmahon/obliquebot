@@ -1,3 +1,5 @@
+# What is this?
+
 This repository implements a bot that listens to a Slack channel and when appropriate, responds with one of Brian Eno and Peter Schmidt's Oblique Strategies.
 
 The bot will listen, in any channel where it has been invited, for "strategy", "strategies", and "oblique". If
@@ -18,7 +20,7 @@ Click this button and you'll get `obliquebot` in your Slack, no extra work requi
 # Build your own based on this repository
 If you want to create your own bot based on obliquebot:
 
-# Let Slack know about the bot.
+## Let Slack know about the bot.
 
 1. Create a new Slack app. The instructions at https://slack.dev/bolt-js/tutorial/getting-started will walk you through this.
 
@@ -36,7 +38,7 @@ You'll need to record the following to set up your environment on Heroku:
  - Slack Bot Token
  - Bot User OAuth Access Token
 
-# State storage
+## Set up state storage at Firebase
 
 The bot needs to store the basic authentication information for the various Slacks it will be added to. We
 use [Firebase](https://firebase.google.com/) to store this data.
@@ -68,7 +70,7 @@ In the main pane, click the `Service Accounts` tab, then the `Generate new priva
 
 This will generate and download a JSON file containig the credentials needed for your bot to access this new Firebase database.
 
-# Set up the bot on Heroku.
+## Set up hosting for the bot on Heroku.
 
 1. Fork this repo.
 
@@ -92,7 +94,7 @@ This will generate and download a JSON file containig the credentials needed for
 | SLACK_CLIENT_SECRET | ... |
 | SLACK_VERIFY_TOKEN | ... |
 
-# Deployment
+## Deploy the bot at Heroku
 
 8. Let's assume you want to just deploy the obliquebot code as is. Go back to the `Deploy` tab and scroll down to `Manual Deploy`.
 9. The default branch will be selected (it's `master` for now, but `main` is supported too). Click `Deploy branch`.
@@ -116,7 +118,7 @@ Heroku will build the service and ready it for execution. Once the build complet
     ... app[web.1]: (Organic) machinery
     ... app[web.1]: http server started on port 9120
 
-# Connect your bot to Slack.
+## Connect your bot to Slack.
 
 While testing, I strongly suggest creating a test Slack for just yourself; you can show off your bot in public once you're sure it's working as you desire.
 
